@@ -10,6 +10,7 @@ For problems that our public community and staff can help with...
 
 - an SDK issue
 - a REST API issue
+- a use case of generating PDFs with HTML
 - or a general product issue
 
 Please [search issues](https://github.com/HTML-to-PDF/status/issues) or [open a new one](https://github.com/HTML-to-PDF/status/issues/new/choose) and we'll help out! 👋
