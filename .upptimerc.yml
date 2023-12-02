@@ -1,0 +1,41 @@
+# Change these first
+owner: HTML-to-PDF # Your GitHub organization or username, where this repository lives
+repo: status # The name of this repository
+
+sites:
+  - name: Mote Website
+    url: https://html-to-pdf.io
+  # - name: API
+  #   check: "tcp-ping"
+  #   port: 443
+  #   url: https://api.html-to-pdf.io/beta
+
+status-website:
+  # Add your custom domain name, or remove the `cname` line if you don't have a domain
+  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  cname: status.html-to-pdf.io
+  logoUrl: https://html-to-pdf.io/_nuxt/logo.fe355d72.jpeg
+  name: HTML-to-PDF.io | Status
+  introTitle: "Check status for HTML-to-PDF.io"
+  introMessage: ""
+  theme: light
+  navbar:
+    - title: Status
+      href: /
+    - title: Website
+      href: https://html-to-pdf.io?ref=status
+
+workflowSchedule:
+  graphs: "0 0 * * *"         # Runs at midnight every day to generate workflow graphs.
+  responseTime: "0 23 * * *"  # Runs at 11 PM every day to measure response time.
+  staticSite: "0 1 * * *"     # Runs at 1 AM every day to update the static site.
+  summary: "0 0 * * *"        # Runs at midnight every day to generate summary reports.
+  updateTemplate: "0 0 * * *" # Runs at midnight every day to update the workflow template.
+  updates: "0 3 * * *"        # Runs at 3 AM every day to check for updates.
+  uptime: "*/15 * * * *"      # Runs every 15 minutes to monitor uptime.
+
+i18n:
+  footer: "[Open source status page]($REPO)"
+
+# Upptime also supports notifications, assigning issues, and more
+# See https://upptime.js.org/docs/configuration
