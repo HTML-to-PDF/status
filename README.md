@@ -2,7 +2,8 @@
 
 ---
 
-> ⚠️ For problems with your account, **DO NOT** post an issue here. Instead, [log into your dashboard](https://html-to-pdf.io/dashboard) and go to support.
+> ⚠️ For problems with your account, **DO NOT** post an issue here.
+> Instead, [log into your dashboard](https://html-to-pdf.io/dashboard) and go to support.
 
 ---
 
